@@ -14,7 +14,8 @@ dist-ssr/
 .env
 .env.local
 .env.*.local
-
+ 
+GoShield_Task_Specification.md
 # OS
 .DS_Store
 Thumbs.db
