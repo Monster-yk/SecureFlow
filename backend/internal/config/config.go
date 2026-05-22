@@ -26,8 +26,8 @@ func getEnv(key string)(string,error){
 	return value,nil
 }
 
-func laod()(*Config,error){
-	err:=godotenv.load()
+func Load()(*Config,error){
+	err:=godotenv.Load()
 	if err!=nil{
 		return nil,fmt.Errorf("error loading .env file")
 	}
